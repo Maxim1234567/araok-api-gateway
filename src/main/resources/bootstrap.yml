@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: araok-api-gateway
+  cloud:
+    config:
+      uri: http://localhost:5000
+      enabled: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
